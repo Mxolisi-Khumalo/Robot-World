@@ -1,0 +1,12 @@
+May 07, 2025 2:26:21 PM za.co.wethinkcode.client.ClientMain main
+INFO: Sending: {"command":"launch","robot":"AlphaBot","arguments":{}}
+May 07, 2025 2:26:22 PM za.co.wethinkcode.client.ClientMain main
+INFO: Received: {"result":"OK","message":"Robot AlphaBot launched.","state":{"position":"(0,0)","status":"ACTIVE"}}
+May 07, 2025 2:47:40 PM za.co.wethinkcode.client.ClientMain main
+INFO: Sending: {"command":"launch","robot":"Alphabot","arguments":{}}
+May 07, 2025 2:47:41 PM za.co.wethinkcode.client.ClientMain main
+INFO: Received: {"result":"OK","message":"Robot Alphabot launched.","state":{"position":"(0,0)","status":"ACTIVE"}}
+May 07, 2025 2:49:14 PM za.co.wethinkcode.client.ClientMain main
+INFO: Sending: {"command":"launch","robot":"maximus","arguments":{}}
+May 07, 2025 2:49:14 PM za.co.wethinkcode.client.ClientMain main
+SEVERE: Client error: Broken pipe

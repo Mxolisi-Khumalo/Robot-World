@@ -1,0 +1,11 @@
+za/co/wethinkcode/server/ServerState.class
+za/co/wethinkcode/shared/Message.class
+za/co/wethinkcode/client/ClientMain.class
+za/co/wethinkcode/server/models/Robot.class
+za/co/wethinkcode/server/commands/LaunchCommand.class
+za/co/wethinkcode/server/commands/CommandFactory.class
+za/co/wethinkcode/server/commands/Command.class
+za/co/wethinkcode/client/LoggerUtil.class
+za/co/wethinkcode/server/ServerMain.class
+za/co/wethinkcode/server/LoggerUtil.class
+za/co/wethinkcode/server/models/World.class

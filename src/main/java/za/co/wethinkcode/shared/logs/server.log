@@ -1,0 +1,22 @@
+May 07, 2025 2:25:54 PM za.co.wethinkcode.server.ServerMain main
+INFO: Server starting on port 6000
+May 07, 2025 2:26:21 PM za.co.wethinkcode.server.ServerMain main
+INFO: New client connected: /127.0.0.1
+May 07, 2025 2:26:22 PM za.co.wethinkcode.server.ServerMain handleClient
+INFO: From client [/127.0.0.1]: {"command":"launch","robot":"AlphaBot","arguments":{}}
+May 07, 2025 2:26:22 PM za.co.wethinkcode.server.ServerMain handleClient
+INFO: To client [/127.0.0.1]: {"result":"OK","message":"Robot AlphaBot launched.","state":{"position":"(0,0)","status":"ACTIVE"}}
+May 07, 2025 2:45:39 PM za.co.wethinkcode.server.ServerMain main
+INFO: Server starting on port 6000
+May 07, 2025 2:45:58 PM za.co.wethinkcode.server.ServerMain main
+INFO: New client connected: /127.0.0.1
+May 07, 2025 2:46:07 PM za.co.wethinkcode.server.ServerMain handleClient
+INFO: From client [/127.0.0.1]: null
+May 07, 2025 2:46:37 PM za.co.wethinkcode.server.ServerMain main
+INFO: Server starting on port 6000
+May 07, 2025 2:46:49 PM za.co.wethinkcode.server.ServerMain main
+INFO: New client connected: /127.0.0.1
+May 07, 2025 2:47:40 PM za.co.wethinkcode.server.ServerMain handleClient
+INFO: From client [/127.0.0.1]: {"command":"launch","robot":"Alphabot","arguments":{}}
+May 07, 2025 2:47:41 PM za.co.wethinkcode.server.ServerMain handleClient
+INFO: To client [/127.0.0.1]: {"result":"OK","message":"Robot Alphabot launched.","state":{"position":"(0,0)","status":"ACTIVE"}}
