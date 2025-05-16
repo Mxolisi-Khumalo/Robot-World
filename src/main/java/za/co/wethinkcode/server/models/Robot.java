@@ -17,4 +17,18 @@ public class Robot {
     public void setPosition(Point p) { this.position = p; }
     public String getDirection() { return direction; }
     public void setDirection(String dir) { this.direction = dir; }
+
+    private int ammo = 5;
+    private int shield = 50;
+
+    public int getAmmo() { return ammo; }
+    public void setAmmo(int ammo) { this.ammo = ammo; }
+
+    public int getHealth() { return health; }
+    public void setHealth(int health) { this.health = Math.max(0, Math.min(100, health)); }
+
+    public int getShield() { return shield; }
+    public void setShield(int shield) { this.shield = Math.max(0, Math.min(50, shield)); }
+
+    public boolean isAlive() { return health > 0; }
 }

@@ -49,7 +49,7 @@ public class World {
         return p.x >= 0 && p.x < width && p.y >= 0 && p.y < height;
     }
 
-    private Point nextPosition(Point pos, String dir) {
+    public Point nextPosition(Point pos, String dir) {
         return switch (dir.toUpperCase()) {
             case "NORTH" -> new Point(pos.x, pos.y + 1);
             case "SOUTH" -> new Point(pos.x, pos.y - 1);
@@ -57,6 +57,17 @@ public class World {
             case "WEST" -> new Point(pos.x - 1, pos.y);
             default -> pos;
         };
+    }
+
+    public Robot getRobot(String name) {
+        return robots.get(name);
+    }
+
+    public Robot robotAt(Point position) {
+        return robots.values().stream()
+                .filter(r -> r.getPosition().equals(position))
+                .findFirst()
+                .orElse(null);
     }
 }
 
